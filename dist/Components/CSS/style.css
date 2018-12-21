@@ -266,6 +266,9 @@ section.four .content .gmap iframe{
     width: 200px;
 float: left;
 }
+section.two .main-img-two img{
+    border-radius: 10px;
+}
 .main-img-three{
     position: relative;
     /* left: 480px; */
@@ -388,7 +391,7 @@ section .content div.inline-button img{
     /* Section 1 */
     /* section 3 */
     section.three div.content h2{
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     section.three div.content{
         z-index: 10;
@@ -404,14 +407,7 @@ section .content div.inline-button img{
     section.five #imgs {
         height: 300px;
     }
-    /*
-    section.five .col-lg-4{
-        height:250px;
-        display: block;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    } */
+
 
 
     
@@ -525,6 +521,9 @@ section .content div.inline-button img{
         width: 40%;
         left: 30%;
     }
+    section.two div.content div.list {
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 767px) { 
@@ -588,7 +587,7 @@ section .content div.inline-button img{
         min-width: 368px;
     }
     section.three div.content h2{
-        font-size: 1rem;
+        font-size: 2rem;
         text-align: center;
     }
     section.three div.title-content h2{
@@ -608,12 +607,29 @@ section .content div.inline-button img{
 
  }
  @media (max-width: 420px) { 
+     section.two{
+         padding-bottom: 750px;
+     }
      section.three {
          padding-bottom: 536px;
      }
+     section.four .content .gmap iframe {
+        width: 300px;
+        height: 300px;
+     }
  }
+ @media (max-width: 372px) { 
+    section.two{
+        padding-bottom: 850px;
+    }
 
+}
+@media (max-width: 350px) { 
+    section.two{
+        padding-bottom: 900px;
+    }
 
+}
 
 
 
