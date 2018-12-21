@@ -547,6 +547,9 @@ section .content div.inline-button img{
         width: 100%;
         text-align: center;
     }
+    nav a.navbar-brand .title{
+        font-size: 1rem;
+    }
     h1#logo{
         width: 100%;
        text-align: center;
@@ -582,6 +585,7 @@ section .content div.inline-button img{
         top: 1em;
         margin: 0 auto;
         position: relative;
+        min-width: 368px;
     }
     section.three div.content h2{
         font-size: 1rem;
@@ -595,8 +599,18 @@ section .content div.inline-button img{
     section.four{
         padding-bottom: 120px;
     }
+    .review.island.island-light {
+        min-width: 0;
+    }
+    .yelp-review{
+        min-width: 340px;
+    }
 
-
+ }
+ @media (max-width: 420px) { 
+     section.three {
+         padding-bottom: 536px;
+     }
  }
 
 
