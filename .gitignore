@@ -1,4 +1,4 @@
 node_modules
 iindex.html
-Components/JS/api.js
+dist/Components/JS/api.js
 .DS_Store

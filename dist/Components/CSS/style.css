@@ -525,6 +525,9 @@ section .content div.inline-button img{
         width: 40%;
         left: 30%;
     }
+}
+
+@media (max-width: 767px) { 
     section.five{
         height:650px;
         /* text-align: center; */
@@ -532,7 +535,6 @@ section .content div.inline-button img{
     section.five .text{
         text-align: center;
     }
-
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
