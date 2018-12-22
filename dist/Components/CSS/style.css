@@ -63,7 +63,7 @@ span#darken{
 }
 nav .bg-light {
     /* background-color: #f8f9fa!important; */
-    background-color: #FEFFFE;
+    background-color: white;
 }
 
 .clearfix{
@@ -82,7 +82,7 @@ section{
     width:100%;
     /* max-height: 650px; */
     overflow: hidden;
-    background: #ccc;
+    background: white;
 }
 
 
@@ -99,7 +99,7 @@ section.one{
 
 
 section.two{
-background-color: #E8ECF0;
+background-color: white;
 height: 400px;
 }
 section.three{
@@ -107,7 +107,7 @@ section.three{
     /* padding-bottom: 500px; */
 }
 section.four{
-background-color: #E7EBF0;
+background-color: white;
 width: 100%;
 }
 
@@ -332,7 +332,7 @@ section .content div.inline-button img{
         width:100%;
         /* max-height: 450px; */
         overflow: hidden;
-        background: #ccc;
+
     }
 
 
@@ -469,7 +469,6 @@ section .content div.inline-button img{
         width:100%;
         /* max-height: 300px; */
         overflow: hidden;
-        background: #ccc;
     }
     /* section 1 */
 
