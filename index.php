@@ -70,6 +70,7 @@
     <!-- Location and Time -->
     <section class='four'>
         <div class="container-fluid">
+            <div class="container">
             <div class="content">
             <h2>Location</h2>
 
@@ -80,11 +81,10 @@
                         <li>498 N. Mathilda Avenue, Sunnyvale, CA 94085</li>
                         <li>Phone: (408) 245 - 2122</li>
                         <li>Fax:(408) 245 - 1211</li>
-                    </ul>
-                    
-
+                </ul>
                 </div>
             </div>
+            <div>
         </div>
     </section>
 

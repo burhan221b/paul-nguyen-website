@@ -107,7 +107,7 @@ section.three{
     /* padding-bottom: 500px; */
 }
 section.four{
-background-color: white;
+background-color: #2BA1F8;
 width: 100%;
 }
 
@@ -230,23 +230,23 @@ section.four .content h2{
     padding-top: 30px;
     text-align: center;
     font-size: 3rem;
-    color: black;
+    color: white;
     font-weight: 900px;  
 }
 section.four .content p.text{
     font-size: 2rem;
-    color: black;
-    font-weight: 700px;  
+    color: whitesmoke;
+    font-weight: 700;  
 }
 section.four .content li{
-    font-weight: 700;
+    font-weight: 500;
 }
 section.four .content .gmap ul{
     float: right;
     width: 50%;
     font-size: 1.5rem;
-    color: black;
-    font-weight: 700px;
+    color: whitesmoke;
+    font-weight: 700;
     list-style-type: circle;
 }
 
@@ -398,6 +398,21 @@ section .content div.inline-button img{
         color: #F4FAFD;
         width: 50%;
     }
+    section.three{
+        padding-bottom: 500px;
+    }
+    section.four{
+        padding-bottom: 100px;
+    }
+    section.four .gmap {
+        float: none;
+        text-align: center;
+    }
+    section.four .content .gmap ul{
+        float: none;
+        width: 100%;
+        list-style-type: none;
+    }
     section.five #imgs{
         text-align: center;
     }
@@ -413,18 +428,7 @@ section .content div.inline-button img{
     
 }
 @media (max-width: 850px) { 
-    section.four{
-        padding-bottom: 100px;
-    }
-    section.four .gmap {
-        float: none;
-        text-align: center;
-    }
-    section.four .content .gmap ul{
-        float: none;
-        width: 100%;
-        list-style-type: none;
-    }
+
     section.three div.content{
         width: 100%;
         top: 2em;
@@ -557,11 +561,11 @@ section .content div.inline-button img{
     }
 
     section.one div.content h2{
-        font-size: 2rem;
+        /* font-size: 2rem; */
     }
 
     section.one div.content h3{
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
 
